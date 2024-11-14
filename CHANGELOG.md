@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.58.0](https://github.com/aquasecurity/trivy/compare/v0.57.0...v0.58.0) (2024-11-14)
+
+
+### Features
+
+* **k8s:** add default commands for unknown platform ([#7863](https://github.com/aquasecurity/trivy/issues/7863)) ([b1c7f55](https://github.com/aquasecurity/trivy/commit/b1c7f5516fc39c6cbb76cbeae5c8677ccc9ce5dd))
+
+
+### Bug Fixes
+
+* **fs:** add missing defered Cleanup() call to post analyzer fs ([#7882](https://github.com/aquasecurity/trivy/issues/7882)) ([ab32297](https://github.com/aquasecurity/trivy/commit/ab32297e0a8220a427fa330025f8625281e02275))
+* Improve version comparisons when build identifiers are present ([#7873](https://github.com/aquasecurity/trivy/issues/7873)) ([eda4d76](https://github.com/aquasecurity/trivy/commit/eda4d7660d8908705bc08a6edc55d8144d02806a))
+* **misconf:** handle null properties in CloudFormation templates ([#7813](https://github.com/aquasecurity/trivy/issues/7813)) ([99b2db3](https://github.com/aquasecurity/trivy/commit/99b2db3978562689cef956a71281abb84ff0ce47))
+* **report:** handle `git@github.com` schema for misconfigs in `sarif` report ([#7898](https://github.com/aquasecurity/trivy/issues/7898)) ([19aea4b](https://github.com/aquasecurity/trivy/commit/19aea4b01f3ce5a3cd05d5a1091da5b0b3ba4af6))
+* **terraform:** set null value as fallback for missing variables ([#7669](https://github.com/aquasecurity/trivy/issues/7669)) ([611558e](https://github.com/aquasecurity/trivy/commit/611558e4ce61818330118684274534f26b1fda99))
+
 ## [0.57.0](https://github.com/aquasecurity/trivy/compare/v0.56.0...v0.57.0) (2024-10-31)
 
 

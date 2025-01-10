@@ -37,7 +37,7 @@ To learn more, go to the [Trivy homepage][homepage] for feature highlights, or t
 ## Quick Start
 
 ### Get Trivy
-
+## By Mudassir Alam
 Trivy is available in most common distribution channels. The full list of installation options is available in the [Installation] page. Here are a few popular examples:
 
 - `brew install trivy`
